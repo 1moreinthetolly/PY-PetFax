@@ -12,4 +12,4 @@ def new_fact():
         print("Pet Fact:", pet_fact)
         return 'Form submitted successfully'
     else:
-        return render_template('fact_pet.html')
+        return render_template('pets/fact_pet.html')
